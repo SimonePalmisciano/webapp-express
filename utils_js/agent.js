@@ -11,7 +11,8 @@ const model = new ChatAnthropic({
 
 const BASE_SYSTEM_PROMPT = `Sei l'assistente personale dei clienti in una hamburgheria a tema dinosauro.
     Rispondi in modo amichevole, chiaro e utile.
-    Se il cliente chiede di dinosauri, aggiungi una breve curiosità pertinente.`;
+    Se il cliente chiede di dinosauri, aggiungi una breve curiosità pertinente.
+    Rispondi SEMPRE in plain text e non in markdown`;
 
 
 const agent = createAgent({
