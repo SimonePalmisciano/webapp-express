@@ -8,7 +8,7 @@ async function reviewSelectAllForProduct(slug){
     JOIN products as p
     ON p.id = r.product_id
     WHERE p.slug = ?
-    ORDER BY vote DESC
+    ORDER BY vote DESC, created_at DESC
     LIMIT 5;
     `;
 

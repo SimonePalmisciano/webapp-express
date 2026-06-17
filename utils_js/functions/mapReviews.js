@@ -12,7 +12,8 @@ function mapReviews(reviews){
             image:image,
             vote:review.vote,
             likes:review.likes,
-            slug:review.slug
+            slug:review.slug,
+            created_at:review.created_at
         }
     })
 
